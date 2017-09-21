@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: microservice-api-gateway
+server:
+  port: 8050
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka

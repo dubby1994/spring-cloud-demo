@@ -83,3 +83,25 @@ java -jar config-server-0.0.1-SNAPSHOT.jar
 ```
 
 访问[http://localhost:8040/test-dev.properties](http://localhost:8040/test-dev.properties)
+
+## config-client
+
+本地测试时：
+
+```
+java -jar config-client-0.0.1-SNAPSHOT.jar 
+```
+
+访问[http://localhost:8041/name](http://localhost:8041/name)
+
+更改git仓库中的值后，刷新配置`curl  -X POST http://localhost:8041/refresh`
+
+## zuul
+
+本地测试时：
+
+```
+java -jar zuul-0.0.1-SNAPSHOT.jar 
+```
+
+访问[http://localhost:8050/service-user-demo/1](http://localhost:8050/service-user-demo/1)
