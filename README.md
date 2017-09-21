@@ -53,3 +53,13 @@ java -jar consumer-user-feign-demo-0.0.1-SNAPSHOT.jar
 ```
 
 访问[http://localhost:8020/feign/1](http://localhost:8020/feign/1)
+
+## consumer-user-ribbon-demo-with-hystrix
+
+本地测试时：
+
+```
+java -jar consumer-user-ribbon-demo-with-hystrix-0.0.1-SNAPSHOT.jar
+```
+
+访问[http://localhost:8011/ribbon/1](http://localhost:8011/ribbon/1)
