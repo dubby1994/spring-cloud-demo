@@ -13,6 +13,7 @@
         <module>consumer-user-ribbon-demo</module>
         <module>consumer-user-feign-demo</module>
         <module>consumer-user-ribbon-demo-with-hystrix</module>
+        <module>consumer-user-feign-demo-with-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
