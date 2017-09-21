@@ -17,6 +17,7 @@
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-turbine</module>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <packaging>pom</packaging>
 

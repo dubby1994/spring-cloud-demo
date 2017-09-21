@@ -73,3 +73,13 @@ java -jar consumer-user-feign-demo-with-hystrix-0.0.1-SNAPSHOT.jar
 ```
 
 访问[http://localhost:8021/feign/1](http://localhost:8021/feign/1)
+
+## config-server
+
+本地测试时：
+
+```
+java -jar config-server-0.0.1-SNAPSHOT.jar 
+```
+
+访问[http://localhost:8040/test-dev.properties](http://localhost:8040/test-dev.properties)
