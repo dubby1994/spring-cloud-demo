@@ -1,0 +1,16 @@
+package cn.dubby.config.client;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+/**
+ * Created by teeyoung on 17/9/21.
+ */
+@SpringBootApplication
+@EnableDiscoveryClient
+public class ConfigClientEurekaApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigClientEurekaApplication.class, args);
+    }
+}
