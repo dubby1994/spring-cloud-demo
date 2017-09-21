@@ -9,6 +9,7 @@
     <modules>
         <module>zuul</module>
         <module>eureka</module>
+        <module>service-user-demo</module>
     </modules>
     <packaging>pom</packaging>
 
