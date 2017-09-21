@@ -16,6 +16,7 @@
         <module>consumer-user-feign-demo-with-hystrix</module>
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-turbine</module>
+        <module>config-server</module>
     </modules>
     <packaging>pom</packaging>
 
