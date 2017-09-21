@@ -6,6 +6,10 @@
     <groupId>cn.dubby</groupId>
     <artifactId>dubby</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>zuul</module>
+        <module>eureka</module>
+    </modules>
     <packaging>pom</packaging>
 
     <!-- 使用最新的spring-boot版本 -->
